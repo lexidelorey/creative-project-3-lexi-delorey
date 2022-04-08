@@ -47,6 +47,8 @@ export default {
         }
       } else if (this.searchText !== '') {
         return this.$root.$data.images.filter(image => image.name.toLowerCase().search(this.searchText.toLowerCase()) >= 0);
+      } else {
+        return [];
       }
     }
   },
