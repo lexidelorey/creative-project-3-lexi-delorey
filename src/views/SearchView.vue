@@ -20,6 +20,9 @@
     </div>
   </div>
   <ImageList :images="images" />
+  <footer>
+      Photos all taken by me :). Code for this website can be found on my <a href="https://github.com/lexidelorey/creative-project-3-lexi-delorey">Github</a>
+  </footer>
 </div>
 </template>
 
@@ -109,5 +112,16 @@ li a {
   text-align: center;
   padding: 16px;
   text-decoration: none;
+}
+footer {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 50px;
+  background-color: #416788;
+  color: white;
+  font-size: 1em;
+  position: absolute;
 }
 </style>
